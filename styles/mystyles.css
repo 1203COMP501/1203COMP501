@@ -1,17 +1,27 @@
   body {
-   padding-left: 11em;
+    margin: 0;
    font-family: Georgia, "Times New Roman",
           Times, serif;
-		  color: purple;
+		  color: black;
     background-color: white }
-	 ul.navbar {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-	position: absolute;
-    top: 2em;
-    left: 1em;
-    width: 10em }
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: lightblue;
+  padding: 1rem;
+}
+.nav-btn{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.nav-btn:hover{
+  color: blue;
+  font-size: large;
+}
+.wrapper {
+  margin: 5% 4% 5% 4%;
+}
 	h1 {
     font-family: Helvetica, Geneva, Arial,
           SunSans-Regular, sans-serif }
@@ -24,13 +34,11 @@
       border-right: 1.5em solid black;
       background: lightgrey;
     }
-  ul.navbar a {
-    text-decoration: none }
-  a:link {
+  /* a:link {
     color: blue }
   a:visited {
-    color: purple }
-	address {
+    color: purple } */
+	/* address {
     margin-top: 1em;
     padding-top: 1em;
-    border-top: thin dotted }
+    border-top: thin dotted } */
