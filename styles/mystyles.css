@@ -35,11 +35,19 @@ ul.navbar li:hover {
   border-right: 1.5em solid black;
   background: lightgrey;
 }
-/* a:link {
-    color: blue }
-  a:visited {
-    color: purple } */
-/* address {
-    margin-top: 1em;
-    padding-top: 1em;
-    border-top: thin dotted } */
+
+.btn-index {
+  display: grid;
+}
+
+.index-btn {
+  text-decoration: none;
+  color: darkblue;
+  margin-left: 1em;
+  padding-bottom: 0.5em;
+  width: max-content;
+}
+
+.index-btn:hover {
+  color: blue;
+}
