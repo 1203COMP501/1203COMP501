@@ -51,3 +51,7 @@ ul.navbar li:hover {
 .index-btn:hover {
   color: blue;
 }
+
+.bold {
+  font-weight: bold;
+}
