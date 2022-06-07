@@ -20,7 +20,7 @@ body {
   font-size: large;
 }
 .wrapper {
-  margin: 5% 4% 5% 4%;
+  margin: 5% 5%;
 }
 h1 {
   font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
@@ -37,19 +37,24 @@ ul.navbar li:hover {
 }
 
 .btn-index {
-  display: grid;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .index-btn {
   text-decoration: none;
   color: darkblue;
-  margin-left: 1em;
   padding-bottom: 0.5em;
   width: max-content;
 }
 
 .index-btn:hover {
   color: blue;
+}
+
+.index-list {
+  display: flex;
+  flex-direction: column;
 }
 
 .bold {
